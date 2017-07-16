@@ -1,0 +1,36 @@
+{
+	"name": "maptemplate",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"firebase": "^4.1.2",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.45.1",
+		"react-native-calendars": "^1.4.0",
+		"react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+		"react-native-elements": "^0.12.2",
+		"react-native-gifted-chat": "^0.1.4",
+		"react-native-icons": "^0.7.1",
+		"react-native-maps": "^0.15.2",
+		"react-native-pathjs-charts": "0.0.28",
+		"react-native-router-flux": "^3.40.1",
+		"react-native-timeline-listview": "^0.2.1",
+		"react-native-vector-icons": "^4.2.0",
+		"react-redux": "^5.0.5",
+		"redux": "^3.6.0",
+		"redux-thunk": "^2.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "^19.0.0",
+		"babel-preset-react-native": "^1.9.1",
+		"jest": "^19.0.2",
+		"eslint-config-rallycoding": "^3.1.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
